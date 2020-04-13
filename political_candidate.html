@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- You're going to create an HTML component to represent a political candidate. Specifically, the representative of your Congressional district. Visit the GovTrack site link below, enter in your home address, and you'll find basic information about your representative.
+
+GovTrack - Congressional District Map
+
+In your HTML, create an article tag that will serve as your main representative component. Give the element a unique identifier.
+In this component, create a sub-component for basic information using the section tag. In this section create elements for the representative's image, name, district info, and political affiliation.
+Beneath the basic information, you will create a sub-component, using a section tag, to list any committees the candidate is serving on.
+The last component will hold links to any legislation that your representative has enacted.
+Make sure you use good BEM-style class names for each element in your components. Put a comment above each component explaining what it is.-->
+<head>
+    <link rel="stylesheet" href="political_candidate_main.css" />
+</head>
+<article class="mainRepresentativeContainer">
+    <section class=" box box__mainRep box--light box--shadow" >
+        <img class="mainRep__img box--shadow" src="Sen.LamarAlexander-200px.jpeg" alt="Sen. Lamar Alexander"/>
+        <p class="mainRep__title box--shadow">Senator Lamar Alexander</p>
+        <p class="mainRep__district box--shadow">Senator for Tennessee</p>
+        <p >When the cheese comes out everybody's happy pepper jack queso. Cottage cheese cheese triangles jarlsberg bocconcini cut the cheese who moved my cheese st. agur blue cheese cauliflower cheese. Cheese slices mascarpone pecorino dolcelatte swiss paneer cheese slices cottage cheese. Fondue cheesy feet.
+            Cheese strings cottage cheese camembert de normandie. St. agur blue cheese parmesan swiss the big cheese stilton caerphilly pepper jack boursin. Macaroni cheese cheese and wine parmesan chalk and cheese mascarpone cheese strings mozzarella cheesecake. Cheesecake bocconcini taleggio.
+            Emmental rubber cheese emmental. Port-salut parmesan swiss ricotta bavarian bergkase parmesan ricotta rubber cheese. Cheesy feet cheeseburger cauliflower cheese halloumi macaroni cheese cheesy feet cheese on toast ricotta. Pecorino squirty cheese edam taleggio lancashire.
+            Roquefort port-salut blue castello. When the cheese comes out everybody's happy pecorino feta taleggio cheesy feet brie cheese on toast when the cheese comes out everybody's happy. The big cheese edam cow who moved my cheese stilton mascarpone fromage frais cheese on toast. Cottage cheese squirty cheese camembert de normandie edam chalk and cheese boursin cottage cheese cauliflower cheese. Cheddar airedale.
+        </p>
+        <p class="mainRep__affiliation box--shadow">political affiliation</p>
+    </section>
+    <section class="box mainRep__committies box--shadow box--light">
+        <p>List any committies the canadidate is serving on</p>
+            <ul>
+                <li></li>
+            </ul>
+    </section>
+    <section class="box mainRep__links box--shadow box--light">
+        <p>Links to any legislation that your representative has enacted</p>
+        <ul>
+            <li><a target="_blank">Link</a></li>  
+            <li><a target="_blank">Link</a></li> 
+            <li><a target="_blank">Link</a></li>      
+        </ul>
+    </section>
+</article>
+
+<article class="mainRepresentativeContainer">
+    <section class="box box__mainRep box--shadow box--dark" >
+        <img class="mainRep__img box--shadow" src="Rep.MarkGreen-200px.jpeg" alt="Representative Mark Green"/>
+        <p class="mainRep__title box--shadow">Name</p>
+        <p class="mainRep__district box--shadow">district info</p>
+        <p>When the cheese comes out everybody's happy pepper jack queso. Cottage cheese cheese triangles jarlsberg bocconcini cut the cheese who moved my cheese st. agur blue cheese cauliflower cheese. Cheese slices mascarpone pecorino dolcelatte swiss paneer cheese slices cottage cheese. Fondue cheesy feet.
+            Cheese strings cottage cheese camembert de normandie. St. agur blue cheese parmesan swiss the big cheese stilton caerphilly pepper jack boursin. Macaroni cheese cheese and wine parmesan chalk and cheese mascarpone cheese strings mozzarella cheesecake. Cheesecake bocconcini taleggio.
+            Emmental rubber cheese emmental. Port-salut parmesan swiss ricotta bavarian bergkase parmesan ricotta rubber cheese. Cheesy feet cheeseburger cauliflower cheese halloumi macaroni cheese cheesy feet cheese on toast ricotta. Pecorino squirty cheese edam taleggio lancashire.
+            Roquefort port-salut blue castello. When the cheese comes out everybody's happy pecorino feta taleggio cheesy feet brie cheese on toast when the cheese comes out everybody's happy. The big cheese edam cow who moved my cheese stilton mascarpone fromage frais cheese on toast. Cottage cheese squirty cheese camembert de normandie edam chalk and cheese boursin cottage cheese cauliflower cheese. Cheddar airedale.
+        </p>
+        <p class="mainRep__affiliation box--shadow" >political affiliation</p>
+    </section>
+    <section class="box mainRep__committies box--shadow box--dark">
+        <p>List any committies the canadidate is serving on</p>
+            <ul>
+                <li></li>
+            </ul>
+    </section>
+    <section class="box mainRep__links box--shadow box--dark">
+        <p>Links to any legislation that your representative has enacted</p>
+        <ul>
+            <li><a target="_blank">Link</a></li>  
+            <li><a target="_blank">Link</a></li> 
+            <li><a target="_blank">Link</a></li>      
+        </ul>
+    </section>
+</article>
+

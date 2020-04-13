@@ -1,0 +1,61 @@
+
+/* Block component */
+.mainRepresentativeContainer {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color:antiquewhite;
+    /* background-image: url("https://www.goodfreephotos.com/albums/united-states/tennessee/nashville/tennessee-state-capital-with-courtyard-in-nashville.jpg"); */
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    /* background-color: silver; */
+}
+.box {
+    margin: 10px;
+    padding: 10px;
+}
+/* modifier that changes the style of the block  */
+.box--light{
+    color: black;
+    border: 1px solid black;
+    background: #eee;
+}
+
+/* modifier that changes the style of the block  */
+.box--dark {
+    border: 1px solid white;
+    color: white;
+    background: #333;
+}
+
+.box--shadow {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+
+
+/* Element that depends upon the block */
+.box__mainRep {
+
+}
+/* Element that depends upon the block */
+.mainRep__img {
+    width: 200px;
+    height: 240px;
+}
+
+/* Element that depends upon the block */
+.mainRep__title {
+ font-size: 50px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainRep__district {
+
+}
+.mainRep__committies {
+
+}
+.mainRep__links {
+
+}
